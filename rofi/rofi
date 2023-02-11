@@ -1,0 +1,13 @@
+rofi.fullscreen: true
+rofi.padding: 300
+rofi.fake-transparency: true
+rofi.bw: 0
+rofi.hide-scrollbar: true
+rofi.font: Source Code Pro 12
+
+rofi.color-normal: #00000000,#dedede,#00000000,#00000000,#3083ae
+rofi.color-urgent: #00000000,#dedede,#00000000,#00000000,#cc0000
+rofi.color-active: #00000000,#dedede,#00000000,#00000000,#3083ae
+rofi.color-window: #e5000000,#000000,#dedede
+
+! vim: set ft=xdefaults:
