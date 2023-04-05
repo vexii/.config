@@ -14,7 +14,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run
+  rofi -show combi -modes combi -combi-modes "window,drun,run"
 
 super + @shift + p
 	1password

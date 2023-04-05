@@ -6,7 +6,7 @@ xrandr --output DisplayPort-0 \
   --primary \
   --mode 2560x1440 \
   --rate 165 \
-  --output DisplayPort-1 \
+  --output HDMI-A-0 \
   --left-of DisplayPort-0 \
   --rotate left \
   --auto
@@ -41,4 +41,6 @@ bspc rule -a plasmashell state=floating border=off layer=above center=off manage
 
 bspc monitor DisplayPort-0 -d 1 2 3 4
 bspc monitor DisplayPort-1 -d 5 6 7 8
+bspc monitor HDMI-A-0 -d 5 6 7 8
 bspc wm -O DisplayPort-0 DisplayPort-1
+bspc wm -O DisplayPort-0 HDMI-A-0
